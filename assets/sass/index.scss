@@ -1,0 +1,21 @@
+@import 'vendors/bootstrap-4.3.1/bootstrap';
+
+@import 'abstracts/variables';
+@import 'abstracts/mixins';
+
+
+@import 'base/base';
+@import 'base/reset';
+@import 'base/typography';
+
+@import 'layout/characteristic';
+@import 'layout/first-section';
+@import 'layout/footer';
+@import 'layout/grid';
+@import 'layout/header';
+@import 'layout/prices';
+
+
+@import 'components/buttons';
+@import 'components/cards';
+@import 'components/navigations';

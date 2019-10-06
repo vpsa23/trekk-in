@@ -1,0 +1,63 @@
+.characteristic-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.characteristic-title {
+    font-size: $xx-large;
+    font-family: $raleway;
+    font-weight: $bold;
+    color: $onyx;
+}
+
+.characteristic-wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+}
+
+.characteristic-info {
+    width: 60%;
+    font-family: $raleway;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.characteristic-graph {
+    margin-right: 0;
+}
+
+.characteristic-info-title {
+    font-size: $x-large;
+    font-weight: $bold;
+}
+
+.characteristic-info-subtitle {
+    font-size: $medium;
+    line-height: 30px;
+}
+
+@media (min-width: 780px) {
+    .characteristic-wrap {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-top: 5rem;
+    }
+
+    .characteristic-info {
+        width: 30%;
+    }
+
+    .characteristic-graph {
+        margin-right: 50px;
+    }
+}

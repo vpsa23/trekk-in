@@ -1,0 +1,259 @@
+.columnas {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+}
+
+.col_xs_12 {
+    grid-column-start: span 12;
+}
+
+.col_xs_11 {
+    grid-column-start: span 11;
+}
+
+.col_xs_10 {
+    grid-column-start: span 10;
+}
+
+.col_xs_9 {
+    grid-column-start: span 9;
+}
+
+.col_xs_8 {
+    grid-column-start: span 8;
+}
+
+.col_xs_7 {
+    grid-column-start: span 7;
+}
+
+.col_xs_6 {
+    grid-column-start: span 6;
+}
+
+.col_xs_5 {
+    grid-column-start: span 5;
+}
+
+.col_xs_4 {
+    grid-column-start: span 4;
+}
+
+.col_xs_3 {
+    grid-column-start: span 3;
+}
+
+.col_xs_2 {
+    grid-column-start: span 2;
+}
+
+.col_xs_1 {
+    grid-column-start: span 1;
+}
+
+
+@media (min-width: 576px) {
+    .col_sm_12 {
+        grid-column-start: span 12;
+    }
+
+    .col_sm_11 {
+        grid-column-start: span 11;
+    }
+
+    .col_sm_10 {
+        grid-column-start: span 10;
+    }
+
+    .col_sm_9 {
+        grid-column-start: span 9;
+    }
+
+    .col_sm_8 {
+        grid-column-start: span 8;
+    }
+
+    .col_sm_7 {
+        grid-column-start: span 7;
+    }
+
+    .col_sm_6 {
+        grid-column-start: span 6;
+    }
+
+    .col_sm_5 {
+        grid-column-start: span 5;
+    }
+
+    .col_sm_4 {
+        grid-column-start: span 4;
+    }
+
+    .col_sm_3 {
+        grid-column-start: span 3;
+    }
+
+    .col_sm_2 {
+        grid-column-start: span 2;
+    }
+
+    .col_sm_1 {
+        grid-column-start: span 1;
+    }
+
+
+
+
+    @media (min-width: 768px) {
+        .col_md_12 {
+            grid-column-start: span 12;
+        }
+
+        .col_md_11 {
+            grid-column-start: span 11;
+        }
+
+        .col_md_10 {
+            grid-column-start: span 10;
+        }
+
+        .col_md_9 {
+            grid-column-start: span 9;
+        }
+
+        .col_md_8 {
+            grid-column-start: span 8;
+        }
+
+        .col_md_7 {
+            grid-column-start: span 7;
+        }
+
+        .col_md_6 {
+            grid-column-start: span 6;
+        }
+
+        .col_md_5 {
+            grid-column-start: span 5;
+        }
+
+        .col_md_4 {
+            grid-column-start: span 4;
+        }
+
+        .col_md_3 {
+            grid-column-start: span 3;
+        }
+
+        .col_md_2 {
+            grid-column-start: span 2;
+        }
+
+        .col_md_1 {
+            grid-column-start: span 1;
+        }
+    }
+
+    @media (min-width: 992px) {
+        .col_lg_12 {
+            grid-column-start: span 12;
+        }
+
+        .col_lg_11 {
+            grid-column-start: span 11;
+        }
+
+        .col_lg_10 {
+            grid-column-start: span 10;
+        }
+
+        .col_lg_9 {
+            grid-column-start: span 9;
+        }
+
+        .col_lg_8 {
+            grid-column-start: span 8;
+        }
+
+        .col_lg_7 {
+            grid-column-start: span 7;
+        }
+
+        .col_lg_6 {
+            grid-column-start: span 6;
+        }
+
+        .col_lg_5 {
+            grid-column-start: span 5;
+        }
+
+        .col_lg_4 {
+            grid-column-start: span 4;
+        }
+
+        .col_lg_3 {
+            grid-column-start: span 3;
+        }
+
+        .col_lg_2 {
+            grid-column-start: span 2;
+        }
+
+        .col_lg_1 {
+            grid-column-start: span 1;
+        }
+
+        
+    }
+
+    @media (min-width: 1200px) {
+
+        .col_xl_12 {
+            grid-column-start: span 12;
+        }
+
+        .col_xl_11 {
+            grid-column-start: span 11;
+        }
+
+        .col_xl_10 {
+            grid-column-start: span 10;
+        }
+
+        .col_xl_9 {
+            grid-column-start: span 9;
+        }
+
+        .col_xl_8 {
+            grid-column-start: span 8;
+        }
+
+        .col_xl_7 {
+            grid-column-start: span 7;
+        }
+
+        .col_xl_6 {
+            grid-column-start: span 6;
+        }
+
+        .col_xl_5 {
+            grid-column-start: span 5;
+        }
+
+        .col_xl_4 {
+            grid-column-start: span 4;
+        }
+
+        .col_xl_3 {
+            grid-column-start: span 3;
+        }
+
+        .col_xl_2 {
+            grid-column-start: span 2;
+        }
+
+        .col_xl_1 {
+            grid-column-start: span 1;
+        }
+    }
+}        

@@ -1,0 +1,89 @@
+.prices-section {
+    background-image: url(../../assets/img/bg-price.svg);
+    background-repeat: no-repeat;
+    background-position: 58%;
+    height: 120vh;
+}
+
+.prices-title {
+    padding: 12rem 0 0;
+    font-size: $xx-large;
+    font-family: $raleway;
+    font-weight: $bold;
+    color: $white;
+}
+
+
+.prices-section {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.prices-cards-wrap {
+    display: flex;
+    flex-direction: column;
+}
+
+.first-cards,
+.second-cards {
+    background-color: $white;
+    padding: 20px;
+    margin: 20px;
+}
+
+.cards-title {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 10px;
+    border-bottom: 1px solid $lavender-gray;
+}
+
+.prices-cards-wrap {
+    display: flex;
+    flex-direction: column;
+}
+
+.cards-first-title {
+    font-family: $raleway;
+    font-size: $x-large;
+}
+
+.cards-prices-title {
+    font-family: $raleway;
+    font-size: $xx-large;
+    font-weight: $bold;
+}
+
+.cards-list {
+    font-family: $raleway;
+    font-size: $small;
+    padding: 15px 0;
+    height: 38vw;
+    border-bottom: 1px solid #C7C8CC;
+    line-height: 26px;
+}
+
+@media(min-width: 780px) {
+    .prices-section {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .prices-cards-wrap {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .cards-list {
+        font-family: $raleway;
+        font-size: $small;
+        padding: 20px 0;
+        height: 30vw;
+        border-bottom: 1px solid $lavender-gray;
+        line-height: 30px;
+    }
+
+    
+}
