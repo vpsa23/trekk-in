@@ -1,8 +1,9 @@
 .prices-section {
-    background-image: url(../../assets/img/bg-price.svg);
+    background-image: url(../../assets/img/bg-price.png);
+    background-size: 171vw 155vh;
     background-repeat: no-repeat;
     background-position: 58%;
-    height: 120vh;
+
 }
 
 .prices-title {
@@ -59,16 +60,26 @@
     font-family: $raleway;
     font-size: $small;
     padding: 15px 0;
-    height: 38vw;
+    min-height: 177px;
     border-bottom: 1px solid #C7C8CC;
     line-height: 26px;
 }
 
 @media(min-width: 780px) {
     .prices-section {
+        background-image: url(../../assets/img/bg-price.svg);
         display: flex;
+        height: 120vh;
         align-items: center;
+        justify-content: center;
         flex-direction: column;
+        background-size: cover;
+    }
+
+    .first-cards,
+    .second-cards {
+        padding: 52px;
+        margin: 40px;
     }
 
     .prices-cards-wrap {
@@ -80,7 +91,7 @@
         font-family: $raleway;
         font-size: $small;
         padding: 20px 0;
-        height: 30vw;
+        min-height: 177px;
         border-bottom: 1px solid $lavender-gray;
         line-height: 30px;
     }
